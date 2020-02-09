@@ -182,33 +182,6 @@ pre {
   margin-bottom: 2rem;
 }
 
-/*default version*/
-@font-face {
-	font-family: 'quicksand';
-	src: url('fonts/quicksand/Quicksand-Regular.otf') 
-	src: 
-		local('Quicksand'),
-		local('quicksand'),
-		url('fonts/quicksand/Quicksand-Regular.otf') 
-		format('opentype');
-}
-/*bold version*/
-@font-face {
-	font-family: 'quicksand';
-	src: url('fonts/quicksand/Quicksand-Bold.otf'); 
-	src: 
-		local('quicksand Bold'),
-		local('quicksand-Bold'),
-		url('fonts/quicksand/Quicksand-Bold.otf') 
-		format('opentype');
-	font-weight: bold;
-}
-/*container element*/
-div { font-family: 'quicksand', sans-serif; }
-/*span elements inside the container div*/
-span { font-weight: bold; }
-
-
 /*===== Titles =====*/
 .site-title {
     font-family: 'Righteous',helvetica,sans-serif;
